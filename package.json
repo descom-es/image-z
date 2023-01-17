@@ -1,5 +1,5 @@
 {
-  "name": "image-z",
+  "name": "@vgarciaf/image-z",
   "version": "0.1.0",
   "description": "Sharp wrapper that parses url parameters.",
   "main": "index.js",
