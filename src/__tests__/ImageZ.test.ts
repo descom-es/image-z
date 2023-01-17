@@ -2,10 +2,10 @@ import { ImageZ } from '../index'
 import { Image } from 'canvas'
 import { readFileSync } from 'fs'
 
-test('Functional test', async () => {
+test('Resize to 100x100', async () => {
   const image = readFileSync('./src/__tests__/test.jpg').toString('base64');
 
-  const transformedImage = ImageZ.from(image).transform('w_100,h_100').response();
+  const transformedImage = (await ImageZ.from(image).transform('w_100,h_100')).response();
 
   const { width, height } = getImageSizes(transformedImage);
 

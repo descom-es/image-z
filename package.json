@@ -17,6 +17,8 @@
     "lint": "tslint -p tsconfig.json"
   },
   "dependencies": {
+    "@types/sharp": "^0.31.1",
+    "sharp": "^0.31.3",
     "typescript": "^4.9.4"
   },
   "devDependencies": {
