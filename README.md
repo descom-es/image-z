@@ -1,4 +1,4 @@
-# node-typescript-module
+# Image Z
   
   <!-- [![Tests](https://)](https://) -->
   [![npm version](https://badge.fury.io/js/image-z.svg)](https://badge.fury.io/js/image-z)
