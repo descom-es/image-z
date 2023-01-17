@@ -6,6 +6,8 @@ Sharp wrapper that parses url parameters.
 ## Usage
 
 ```ts
+import { ImageZ } from '@vgarciaf/image-z/lib/index.js';
+
 const image = readFileSync('./src/__tests__/test.jpg').toString('base64');
 
 const transformedImage = (await ImageZ.from(image).transform('w_100,h_100')).response();
