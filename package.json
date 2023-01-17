@@ -1,12 +1,12 @@
 {
-  "name": "node-typescript-module",
+  "name": "image-z",
   "version": "0.1.0",
-  "description": "node typescript module template with jest and prettier.",
+  "description": "Sharp wrapper that parses url parameters.",
   "main": "index.js",
-  "repository": "https://github.com/TortitasT/node-typescript-module.git",
+  "repository": "https://github.com/descom-es/image-z.git",
   "author": "Tortitas <victorgf2011@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "files": [
     "lib/**/*"
   ],
