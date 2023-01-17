@@ -18,13 +18,16 @@ jobs:
           node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Install dependencies 👨🏻‍💻
-        run: yarn
+        run: pnpm install
 
       - name: Build 🏗
-        run: yarn build
+        run: pnpm run build
 
       - name: Publish 🚀
-        run: yarn publish --access public
+        run: pnpm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
