@@ -1,6 +1,6 @@
 {
   "name": "@vgarciaf/image-z",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Sharp wrapper that parses url parameters.",
   "main": "lib/index.js",
   "repository": "https://github.com/descom-es/image-z.git",
