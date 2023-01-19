@@ -36,7 +36,7 @@ main();
 | w | Width | w_100 |
 | h | Height | h_100 |
 | f | Fit | f_fill |
-| bg | Background | bg_ffffff |
+| bg | Background | bg_#ffffff |
 
 ## Fit
 ```ts
