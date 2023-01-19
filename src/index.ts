@@ -40,6 +40,12 @@ function paramsToResizeOptions(params: string): sharp.ResizeOptions {
       case 'h':
         options.height = parseInt(value);
         break;
+      case 'bg':
+        options.background = value;
+        break;
+      case 'fit':
+        options.fit = value as keyof typeof sharp.fit;
+        break;
     }
   }
 

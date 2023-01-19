@@ -28,3 +28,21 @@ async function main() {
 
 main();
 ```
+
+## Parameters
+
+| Parameter | Description | Example |
+| --- | --- | --- |
+| w | Width | w_100 |
+| h | Height | h_100 |
+| f | Fit | f_fill |
+| bg | Background | bg_ffffff |
+
+## Fit
+```ts
+  'contain'
+  'cover'
+  'fill'
+  'inside'
+  'outside'
+```
